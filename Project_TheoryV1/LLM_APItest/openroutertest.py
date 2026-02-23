@@ -5,7 +5,7 @@ from openai import OpenAI
 # 2. Add the required OpenRouter headers
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key="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", # Use the string directly for now
+    api_key="sk...", # Use openrouter API
     default_headers={
         "HTTP-Referer": "http://localhost", 
         "X-Title": "Arch Essay Tool",
